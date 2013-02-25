@@ -32,3 +32,27 @@
     </dd>
 
 </dl>
+
+<!--
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      tal:omit-tag="">
+
+    <div id="slideshow_01_wrap">
+		<div class="center_990">
+			<ul class="slideshow_wrap_01">
+              <li tal:repeat="slide view/slideshow"
+                  tal:attributes="style slide/image"
+                  class="top_slide">
+                  <!~~<a tal:attributes="href slide/button_link"
+                     tal:content="slide/button_text"
+                     class="cta" href="slide/button_link"> </a>~~>
+				</li>
+			</ul><!~~ slideshow_wrap ~~>
+		</div><!~~ .center_990 ~~>
+	</div><!~~ #slideshow_01_wrap ~~>
+
+</html>
+ -->
